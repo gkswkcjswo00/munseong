@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.munseong.hs.kr.notice.NoticeActivity"
+    >
+
+    <item
+        android:id="@+id/action_show_notice"
+        android:icon="@mipmap/ic_notice"
+        android:orderInCategory="1"
+        android:title="@string/action_show_notice"
+        app:showAsAction="ifRoom" />
+
+</menu>

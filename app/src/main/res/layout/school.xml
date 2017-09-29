@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView" >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="교장선생님 말씀"
+        android:id="@+id/textView2"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/school1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="교목:소나무 교화:동백꽃 교색:노랑"
+        android:id="@+id/textView3"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/symbol"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="교훈:성실"
+        android:id="@+id/textView4"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:id="@+id/imageView3"
+        android:background="@drawable/school2"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="문성고등학교 교가"
+        android:id="@+id/textView5"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+    <Switch
+        android:id="@+id/switchs"
+        android:textOn="♪ON♬"
+        android:textOff="♩OFF♪"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="srun"
+        android:checked="false"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/imageView4"
+        android:background="@drawable/music" />
+
+
+
+
+</LinearLayout>
+</ScrollView>

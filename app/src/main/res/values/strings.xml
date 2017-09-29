@@ -1,0 +1,207 @@
+<resources>
+    <!-- 메인 -->
+    <string name="app_name">문성고등학교</string>
+    <string name="activity_main_fragment_simple">간단 보기</string>
+    <string name="activity_main_fragment_detailed">교내 정보</string>
+    <!-- 기본 -->
+    <string name="loading_title">로딩중</string>
+    <string name="I_do_not_know_the_error_title">알수없는 오류 발생</string>
+    <string name="I_do_not_know_the_error_message">오류가 발생하였습니다..</string>
+    <!-- 메뉴 -->
+    <string name="action_settings">설정</string>
+    <string name="action_refresh">새로 고침</string>
+    <string name="action_calender">날짜 설정</string>
+    <string name="action_today">오늘 날짜</string>
+    <string name="action_show_star">별점 확인</string>
+    <string name="action_show_notice">학생회 소개</string>
+    <string name="action_reset_mygrade">학급 정보 재설정</string>
+    <string name="action_share_timetable">시간표 공유</string>
+    <string name="action_share_timetable_msg">%1$s 시간표
+\n%2$s</string>
+    <string name="action_setting_mygrade">학년 설정</string>
+    <string name="action_setting_myclass">반 설정</string>
+    <string name="action_share_day">공유할 요일 선택</string>
+    <string name="action_download_db">DB 업데이트</string>
+    <!-- 학교정보 -->
+    <string name="title_activity_school">학교정보</string>
+    <string name="message_activity_school">학교정보를 확인합니다.</string>
+    <string name="title_activity_school_notice">세부사항</string>
+    <string name="message_activity_school_notice">학교소개, 교장선생님말씀,\n 교가를 확인합니다.</string>
+
+    <!-- 급식 -->
+    <string name="title_activity_bap">급식</string>
+    <string name="message_activity_bap">급식을 확인합니다.</string>
+    <string name="today_lunch">오늘의 점심</string>
+    <string name="today_dinner">오늘의 저녁</string>
+    <string name="no_data_lunch">점심이 없습니다</string>
+    <string name="no_data_dinner">저녁이 없습니다</string>
+    <string name="no_data_title">정보 없음</string>
+    <string name="no_data_message">정보가 없습니다.</string>
+    <string name="no_network_title">인터넷 연결 안됨</string>
+    <string name="no_network_msg">데이터를 불러오는데 실패했습니다</string>
+    <string name="no_wifi_title">데이터 네트워크 사용 안내</string>
+    <string name="no_wifi_msg">데이터 네트워크를 사용하시겠습니까?</string>
+    <string name="shareBap_title">급식 공유하기</string>
+    <string name="shareBap_message_msg">%1$s의 급식 목록
+\n\n점심 : %2$s
+\n\n저녁 : %3$s</string>
+    <!-- 시간표 -->
+    <string name="title_activity_time_table">시간표</string>
+    <string name="message_activity_time_table">시간표를 확인합니다.</string>
+    <string name="today_timetable">%1$s 시간표</string>
+    <string name="no_setting_my_grade">학급 정보가 없습니다</string>
+    <string name="not_go_to_school_title">시간표 없음</string>
+    <string name="not_go_to_school_message">오늘은 시간표가 없습니다.</string>
+    <string name="not_exists_data">데이터가 없습니다.</string>
+    <string name="timetable_title">%1$d학년 %2$d반 시간표</string>
+    <string name="no_time_table_db_title">시간표 DB 없음</string>
+    <string name="no_time_table_db_message">시간표 DB가 없습니다, 다운로드 하시겠습니까?</string>
+    <!-- 설정 -->
+    <string name="title_activity_settings">설정</string>
+    <!-- 일정 -->
+    <string name="title_activity_schedule">일정</string>
+    <string name="message_activity_schedule">일정을 확인합니다.</string>
+    <!-- 방과후 -->
+    <string name="title_activity_aft">방과후학교</string>
+    <string name="message_activity_aft">방과후 과목을 신청 또는 \n확인합니다.</string>
+    <!-- 급식 자동 업데이트 -->
+    <string name="title_service_autoupdate">자동 업데이트 서비스</string>
+    <string name="title_broadcast_autoupdate">자동 업데이트 리시버</string>
+    <!-- 급식 자동 업데이트 안내 -->
+    <string name="info_autoUpdate_title">급식 자동 업데이트 안내</string>
+    <string name="info_autoUpdate_msg">급식 자동 업데이트는 매주 사용자분께서 급식을 업데이트 해야하는 불편을 덜기위해 만들어졌습니다
+\n 학교에 나오는 목적중 하나인 급식을 누구보다 빨리 확인해 보세요
+\n
+\n- 업데이트 주기 : 자동, 토요일, 일요일을 선택할 수 있습니다 선택한 날짜의 AM 1:00에 업데이트가 이루어집니다
+\n- 업데이트 알림 : 급식 업데이트 중에는 설정과 관계없이 진행중 알림이 나타나며 업데이트 완료후 성공/실패여부를 알림으로 나타내줍니다
+\n- Wi-Fi로만 업데이트 : 말그대로 Wi-Fi에서만 업데이트 합니다 데이터가 부족한 학생을 위한 기능입니다 (그런데 급식 가져오는거 데이터 얼마 안들어요)
+\n 어플을 사용하시다 강제종료가 발생하면 꼭 "보고(신고)" 버튼을 눌러 신고해 주세요!</string>
+    <!-- 급식 자동 업데이트 알림 -->
+    <string name="bapUpdateNotification_title">급식 업데이트중</string>
+    <string name="bapUpdateNotification_ticker">문성고등학교 급식 업데이트중</string>
+    <string name="bapUpdateNotification_notification">급식 업데이트 알림</string>
+    <string name="bapUpdateNotification_msg">급식을 업데이트 하고 있습니다 잠시만 기다려 주세요</string>
+    <string name="bapUpdate_Error_Net_title">네트워크 연결 안됨</string>
+    <string name="bapUpdate_Error_Net_msg">인터넷에 접속할수 없습니다</string>
+    <string name="bapUpdate_Error_get_title">급식 가져오기 실패</string>
+    <string name="bapUpdate_Error_get_msg">급식을 가져오는데 실패했습니다</string>
+    <string name="bapUpdate_Success_title">급식 업데이트 성공</string>
+    <string name="bapUpdate_Success_msg">급식을 성공적으로 업데이트 했습니다 확인하려면 누르세요</string>
+    <!-- 급식 위젯 -->
+    <string name="widget_bap_name">문성고 급식 위젯</string>
+    <string name="widget_timetable_name">문성고 시간표 위젯</string>
+    <string name="widget_no_data">데이터가 없습니다 날짜를 눌러 새로고침 하세요</string>
+    <!-- 시간표 위젯 -->
+    <!-- 오픈소스 라이센스 -->
+    <string name="license_title">라이센스 정보</string>
+    <string name="license_msg">오픈소스 라이센스 정보
+\n- Jericho HTML Parser
+\n (http://jericho.htmlparser.net/docs/index.html)
+\n
+\n- Android Meal Library
+\n (https://bitbucket.org/whdghks913/wondanghighschool) (http://itmir.tistory.com/486) (http://blog.naver.com/rimal/140186322365)
+\n
+\n- Android Support Library
+\n com.android.support:appcompat-v7:23.1.1
+\n com.android.support:design:23.1.1
+\n com.android.support:cardview-v7:23.1.1
+\n com.android.support:recyclerview-v7:23.1.1
+\n com.android.support:support-v4:23.1.1
+\n
+\n- DateTimePicker
+\n com.github.flavienlaurent.datetimepicker:library:0.0.2
+\n (https://github.com/flavienlaurent/datetimepicker)
+\n
+\n- Glide
+\n com.github.bumptech.glide:glide:3.6.1
+\n
+\n- CircleImageView
+\n de.hdodenhof:circleimageview:2.0.0
+\n
+\n- org.apache.http
+\n org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2
+</string>
+    <!-- 수정 내역 -->
+    <string name="changeLog_title">수정 내역</string>
+    <string name="changeLog_msg">v1.1
+\n- 학생회 공지사항 수정
+\n- 학생회 정보 열람기능 추가
+    </string>
+    <!-- 개발자 -->
+    <string name="developer_title">개발자 소개</string>
+    <string name="developer_msg">개발자:1-3 한종윤 디자인:1-7 표지원
+        \n도움주신 분들:신현정선생님,오태화선배님,이서원선생님,박부식선생님,정원찬
+        \n 외에도 도움주신 모든 분들께 감사드립니다</string>
+    <!-- 학생회 소개 -->
+    <string name="student_into_title">학생회 소개</string>
+    <string name="student_into_msg">
+★회장단\n
+학생회장 김대웅(2-3)\n
+2학년 부회장 정동은(2-3)\n
+1학년 부회장 김지호(1-6)\n
+* 서기 박민호 (2-5)\n\n
+★총무부\n
+부장 문승환(2-9)\n
+차장 이동후(1-4)\n\n
+★문화예술부\n
+부장 문창규(2-1)\n
+차장 윤지훈(1-6)\n\n
+★학습부\n
+부장 박우현(2-9)\n
+차장 장한빛(1-7)\n\n
+★학년장\n
+2학년장 최민권(2-4)\n
+1학년장 오민석(1-3)\n\n
+★홍보부\n
+부장 홍정민(2-4)\n
+차장 이준석(1-7)\n\n
+★언론부\n
+부장 장우원(2-9)\n
+차장 정승준(1-8)\n\n
+★선도부\n
+부장 고영민(2-2)\n
+차장 양다현(1-8)\n\n
+★방송부\n
+부장 정영우(2-3)\n
+차장 유찬(1-8)\n\n
+★체육부\n
+부장 이선한(2-1)\n
+차장 정준호(1-6)\n\n
+★자치법정\n
+자치법정장 김근태(2-4)\n\n
+★환경봉사부\n
+부장 최기훈(2-6)\n
+차장 장원석(1-3)</string>
+
+    <!-- 업데이트 안내 -->
+    <string name="update_notification_title">시간표 업데이트</string>
+    <string name="update_notification_message">시간표를 홈페이지에 올라온 시간표로 변경하였습니다.
+\n시간표 화면에서 오른쪽 아래 버튼을 눌러 업데이트 하세요.</string>
+    <string name="user_info_licensed">관리자 등급이 활성화되었습니다.</string>
+    <string name="user_info_require_message">게시글 작성을 위해서 관리자 권한이 필요합니다.</string>
+    <string name="user_info_class_up_title">관리자 인증 암호를 입력하세요</string>
+    <string name="title_activity_notice">학생회 공지사항</string>
+    <string name="message_activity_notice">학생회 공지사항을 \n확인합니다.</string>
+    <string name="title_activity_bap_star">급식 별점</string>
+    <string name="bap_star_people_count">%1$d명 참여</string>
+    <string name="bap_star_once_title">별점 전송 제한</string>
+    <string name="bap_star_once_message">급식당 하루에 한번만 별점을 등록할 수 있습니다.</string>
+    <string name="post_bap_star_title">급식 별점 전송</string>
+    <string name="post_bap_star_posting">급식 별점 전송중</string>
+    <string name="post_bap_star_success">급식 별점 전송을 성공했습니다!
+\n반영까지 약 5분정도 소요될 수 있습니다.</string>
+    <string name="post_bap_star_failed">급식 별점 전송에 실패했습니다!</string>
+    <string name="title_activity_notice_send">공지사항 게시</string>
+    <string name="post_notice_title">공지사항 전송</string>
+    <string name="post_notice_alert">한번 게시된 공지사항은 앱 개발자만 삭제할 수 있습니다. 다시 한번 확인하시고 전송하십시오.
+\n반영까지 약 5분정도 소요될 수 있습니다.</string>
+    <string name="post_notice_posting">공지사항을 전송중입니다.</string>
+    <string name="post_notice_success">공지사항 전송을 성공했습니다!</string>
+    <string name="post_notice_failed">공지사항 전송에 실패했습니다!</string>
+    <string name="title_activity_exam_range">시험 시간표</string>
+    <string name="message_activity_exam_range">시험 시간표를 확인합니다.</string>
+    <string name="exam_time_title">%1$d학년 %2$s %3$s %4$s 시간표</string><!-- 1학년 과중 2학기 기말 시간표 -->
+    <string name="no_exam_db_title">시험 시간표 DB 없음</string>
+    <string name="no_exam_db_message">시험 시간표 DB가 없습니다, 다운로드 하시겠습니까?</string>
+
+</resources>
