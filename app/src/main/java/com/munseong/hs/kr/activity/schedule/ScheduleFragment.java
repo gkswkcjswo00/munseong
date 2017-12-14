@@ -159,8 +159,8 @@ public class ScheduleFragment extends Fragment {
                 mAdapter.addItem("중간고사 (1,2학년)", "2017.10.20 (금)");
                 break;
             case 11:
-                mAdapter.addItem("대학 수학 능력 시험", "2017.11.16 (목)", true);
-                mAdapter.addItem("전국 연합 학력 평가 (1,2학년)", "2017.11.22 (수)");
+                mAdapter.addItem("대학 수학 능력 시험", "2017.11.23 (목)", true);
+                mAdapter.addItem("전국 연합 학력 평가 (1,2학년)", "2017.11.29 (수)");
 
                 break;
             case 12:
@@ -174,10 +174,11 @@ public class ScheduleFragment extends Fragment {
                 mAdapter.addItem("꿈끼 탐색주간 (3학년)", "2017.12.26 (화)");
                 mAdapter.addItem("꿈끼 탐색주간 (3학년)", "2017.12.27 (수)");
                 mAdapter.addItem("꿈끼 탐색주간 (3학년)", "2017.12.28 (목)");
-                mAdapter.addItem("방학식", "2017.12.29 (금)");
+
                 break;
             case 1:
                 mAdapter.addItem("신정", "2018.01.01 (월)", true);
+                mAdapter.addItem("방학식", "2018.01.03 (수)");
                 break;
             case 2:
                 mAdapter.addItem("개학식 (1,2학년)", "2018.02.05 (월)");

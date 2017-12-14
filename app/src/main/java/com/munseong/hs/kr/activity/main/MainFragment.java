@@ -80,8 +80,7 @@ public class MainFragment extends Fragment {
                             break;
                         case 3:
 
-                            Toast.makeText(getActivity(), "점검중인 기능입니다.", Toast.LENGTH_SHORT).show();
-//                            startActivity(new Intent(getActivity(), ExamTimeActivity.class));
+                                                        startActivity(new Intent(getActivity(), ExamTimeActivity.class));
                             break;
                     }
                 }

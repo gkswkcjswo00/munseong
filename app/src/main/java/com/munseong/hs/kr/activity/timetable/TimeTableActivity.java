@@ -323,7 +323,7 @@ public class TimeTableActivity extends AppCompatActivity {
             String[] room = mData.room;
 
             for (int period = 0; period < 7; period++) {
-                mText += "\n" + (period + 1) + "교시 : " + subject[period] + "(" + room[period] + ")";
+                mText += "\n" + (period + 1) + "교시 : " + subject[period] ;
             }
 
             String title = getString(R.string.action_share_timetable);

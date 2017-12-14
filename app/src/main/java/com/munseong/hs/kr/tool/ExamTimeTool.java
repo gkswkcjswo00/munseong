@@ -9,8 +9,8 @@ import java.util.ArrayList;
  * Created by whdghks913 on 2015-12-10.
  */
 public class ExamTimeTool {
-    public static final String ExamDBName = "ExI.db";
-    public static final String ExamTableName = "ExI";
+    public static final String ExamDBName = "Exwqw.db";
+    public static final String ExamTableName = "Exwqw";
     public final static String mGoogleSpreadSheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRG1jeeTJF3d5DxWcKy2OxdOK6AnRuD9QsnQbx59v4YJsjkR8Jl3g1u_AwfnAanMg5JQ32cM2qBcQAu/pubhtml?gid=0&amp;single=true";
 
     public static boolean fileExists() {
