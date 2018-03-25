@@ -26,6 +26,8 @@ import com.munseong.hs.kr.tool.BapTool;
 import com.munseong.hs.kr.tool.Preference;
 import com.munseong.hs.kr.tool.ProcessTask;
 import com.munseong.hs.kr.tool.Tools;
+import com.munseong.hs.kr.activity.SSLConnect;
+
 
 public class BapActivity extends AppCompatActivity {
 
@@ -44,6 +46,10 @@ public class BapActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        SSLConnect ssl = new SSLConnect();
+        ssl.postHttps("gen.go.kr", 1000, 1000);
+
         setContentView(R.layout.activity_bap);
         Toolbar mToolbar = (Toolbar) findViewById(R.id.mToolbar);
         setSupportActionBar(mToolbar);
