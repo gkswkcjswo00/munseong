@@ -130,7 +130,7 @@
     </string>
     <!-- 개발자 -->
     <string name="developer_title">개발자 소개</string>
-    <string name="developer_msg">개발자:1-3 한종윤 디자인:1-7 표지원
+    <string name="developer_msg">개발자:2-3 한종윤
         \n도움주신 분들:신0정선생님,오0화선배님,박0식선생님,정0찬
         \n 외에도 도움주신 모든 분들께 감사드립니다</string>
     <!-- 학생회 소개 -->
@@ -178,6 +178,8 @@
     <string name="update_notification_title">시간표 업데이트</string>
     <string name="update_notification_message">시간표를 홈페이지에 올라온 시간표로 변경하였습니다.
 \n시간표 화면에서 오른쪽 아래 버튼을 눌러 업데이트 하세요.</string>
+
+
     <string name="user_info_licensed">관리자 등급이 활성화되었습니다.</string>
     <string name="user_info_require_message">게시글 작성을 위해서 관리자 권한이 필요합니다.</string>
     <string name="user_info_class_up_title">관리자 인증 암호를 입력하세요</string>
