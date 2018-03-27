@@ -158,31 +158,28 @@ public class ScheduleFragment extends Fragment {
                 mAdapter.addItem("전국 연합 학력 평가 (3학년)", "2018.10.16 (화)");
                 break;
             case 11:
-                mAdapter.addItem("대학 수학 능력 시험", "2018.11.23 (목)", true);
-                mAdapter.addItem("전국 연합 학력 평가 (1,2학년)", "2018.11.29 (수)");
-
+                mAdapter.addItem("대학 수학 능력 시험", "2018.11.15 (목)", true);
+                mAdapter.addItem("전국 연합 학력 평가 (1,2학년)", "2018.11.21 (수)");
+                mAdapter.addItem("문성 축제", "2018.11.30 (금)");
                 break;
             case 12:
-                mAdapter.addItem("문성 축제", "2018.12.01 (금)");
-                mAdapter.addItem("기말고사 (1,2학년)", "2018.12.18 (월)");
-                mAdapter.addItem("기말고사 (1,2학년)", "2018.12.19 (화)");
-                mAdapter.addItem("기말고사 (1,2학년)", "2018.12.20 (수)");
-                mAdapter.addItem("꿈끼 탐색주간 (3학년)", "2018.12.21 (목)");
-                mAdapter.addItem("꿈끼 탐색주간 (3학년)", "2018.12.22 (금)");
-                mAdapter.addItem("성탄절", "2018.12.25 (월)", true);
-                mAdapter.addItem("꿈끼 탐색주간 (3학년)", "2018.12.26 (화)");
-                mAdapter.addItem("꿈끼 탐색주간 (3학년)", "2018.12.27 (수)");
-                mAdapter.addItem("꿈끼 탐색주간 (3학년)", "2018.12.28 (목)");
+                mAdapter.addItem("기말고사 (1,2학년)", "2018.12.10 (월)");
+                mAdapter.addItem("기말고사 (1,2학년)", "2018.12.11 (화)");
+                mAdapter.addItem("기말고사 (1,2학년)", "2018.12.12 (수)");
+                mAdapter.addItem("방학식(3학년)", "2018.12.17 (월)");
+                mAdapter.addItem("방학식(1,2학년)", "2018.12.21 (금)");
 
                 break;
             case 1:
-                mAdapter.addItem("신정", "2019.01.01 (월)", true);
-                mAdapter.addItem("방학식", "2019.01.03 (수)");
+                mAdapter.addItem("신정", "2019.01.01 (화)", true);
+                mAdapter.addItem("등교일", "2019.01.28 (월)");
+                mAdapter.addItem("졸업식/종업식", "2019.01.29 (화)", true);
                 break;
             case 2:
-                mAdapter.addItem("개학식 (1,2학년)", "2019.02.05 (월)");
-                mAdapter.addItem("개학식 (3학년)", "2019.02.08 (목)");
-                mAdapter.addItem("졸업식/종업식", "2019.02.09 (금)", true);
+                mAdapter.addItem("설연휴", "2019.02.04 (월)", true);
+                mAdapter.addItem("설연휴", "2019.02.05 (화)", true);
+                mAdapter.addItem("설연휴", "2019.02.06 (수)", true);
+
                 break;
         }
 
