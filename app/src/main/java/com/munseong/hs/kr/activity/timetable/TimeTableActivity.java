@@ -317,7 +317,7 @@ public class TimeTableActivity extends AppCompatActivity {
         try {
             String mText = "";
 
-            TimeTableTool.timeTableData mData = TimeTableTool.getTimeTableData(mGrade, mClass, position + 2);
+            TimeTableTool.timeTableData mData = TimeTableTool.getTimeTableData(mGrade, mClass, position);
 
             String[] subject = mData.subject;
             String[] room = mData.room;
