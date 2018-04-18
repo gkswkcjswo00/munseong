@@ -8,8 +8,8 @@ android {
         applicationId "com.munseong.hs.kr"
         minSdkVersion 15
         targetSdkVersion 24
-        versionCode 8
-        versionName "v1.4"
+        versionCode 10
+        versionName "v1.4.1"
     }
     buildTypes {
         release {
